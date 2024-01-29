@@ -8,23 +8,23 @@
         </span>
       </span>
     </div>
-    
+
     <div class="detail">
-      <strong>Muskelgrupp:</strong>
+      <strong>Muskelgrupp du vill köra:</strong>
       <p class="muscle-group">{{ item.muscleGroup }}</p>
     </div>
-    
+
     <div class="detail">
-      <strong>Muskel övning:</strong>
+      <strong>Muskel övning du vill jobba med :</strong>
       <p class="exercise">{{ item.exercise }}</p>
     </div>
-    
+
     <div class="detail">
-  <strong>Antal rep och sets:</strong>
+  <strong>Antal rep och sets du vill göra :</strong>
   <p class="reps-and-sets">{{ item.reps }} x {{ item.set }}</p>
 </div>
 
-    
+
     <p>
       <button class="btn" @click="handleDelete">Delete</button></p>
   </div>
@@ -83,7 +83,7 @@ const { item } = defineProps(['item']);
 
 .badge {
     padding: .3em .5em;
-    border-radius: 50px; 
+    border-radius: 50px;
     margin-left: 1em;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
